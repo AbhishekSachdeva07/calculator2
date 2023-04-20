@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="new.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="con">
+        <h1>CALCULATOR</h1>
+    </div>
+    <div class="calculator">
+        <input type="text" readonly id="text" ><br><br>
+        <button id="btn" onclick="addtovalue('7')">7</button>
+        <button id="btn" onclick="addtovalue('8')">8</button>
+        <button id="btn" onclick="addtovalue('9')">9</button>
+        <button id="btn" onclick="calculate('+')">+</button>
+        
+        <br>
+        <button id="btn" onclick="addtovalue('4')">4</button>
+        <button id="btn" onclick="addtovalue('5')">5</button>
+        <button id="btn" onclick="addtovalue('6')">6</button>
+        <button id="btn" onclick="calculate('-')">-</button>
+        <br>
+        <button id="btn" onclick="addtovalue('1')">1</button>
+        <button id="btn" onclick="addtovalue('2')">2</button>
+        <button id="btn" onclick="addtovalue('3')">3</button>
+        <button id="btn" onclick="calculate('%')">%</button>
+        <br>
+        <button id="btn" onclick="addtovalue('0')">0</button>
+        <button id="btn" onclick="clearresult()">CE</button>
+        <button id="btn" onclick="calculate('/')">/</button>
+        <button id="btn" onclick="calculate('=')">=</button>
+    </div>
+</body>
+<script src="java.js"></script>
+</html>
