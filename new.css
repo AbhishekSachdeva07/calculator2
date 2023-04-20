@@ -1,0 +1,48 @@
+.container{
+  overflow: hidden;
+  position: relative;
+}
+.first{
+  display: inline-block;
+  width: 50%;
+}
+.second{
+  
+  display: inline-block;
+  width: 49%;
+}
+#btn{
+  width: 50px;
+  border: 1px solid;
+  margin: 2.5px;
+  background-color: rgb(192, 195, 239);
+}
+#text{
+  width: 205px;
+}
+.calculator{
+  border: 2px dashed;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  background-color: rgb(244, 243, 243);
+}
+#btn:hover{
+  color: white;
+  background-color: black;
+
+}
+#btn:active{
+  color: black;
+  background-color: rgb(83, 165, 160);
+}
+.con{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.con h1{
+  font-family: 'Rubik Wet Paint', cursive;
+}
